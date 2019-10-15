@@ -1,0 +1,26 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Portofolio Pertama",
+  "main": "index.js",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amndatsy20/amndatsy20.github.io.git"
+  },
+  "author": "amandacantik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amndatsy20/amndatsy20.github.io/issues"
+  },
+  "homepage": "https://github.com/amndatsy20/amndatsy20.github.io#readme"
+}
