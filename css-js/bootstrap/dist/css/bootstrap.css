@@ -10169,12 +10169,20 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-pink-grad {
-  background: linear-gradient(90deg, #f08080, #ff647e, #434343);
-  background-size: 400% 400%;
+  background: linear-gradient(0deg, #778899, lightcoral);
+  background-size: 100% 100%;
   
-  -webkit-animation: bgpink 10s ease-in infinite;
-  -moz-animation: bgpink 10s ease-in infinite;
-  animation: bgpink 10s ease-in infinite;
+  /* -webkit-animation: bgpink 20s ease-in-out;
+  -moz-animation: bgpink 20s ease-in-out;
+  animation: bgpink 20s ease-in-out; */
+}
+.bg-gray-grad {
+  background: linear-gradient(180deg, #778899, lightcoral);
+  background-size: 100% 100%;
+  
+  /* -webkit-animation: bgpink 20s ease-in-out;
+  -moz-animation: bgpink 20s ease-in-out;
+  animation: bgpink 20s ease-in-out; */
 }
 
 @-webkit-keyframes bgpink {
