@@ -10169,7 +10169,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-pink-grad {
-  background: linear-gradient(90deg, #f08080, #ff647e, #2C3E50);
+  background: linear-gradient(90deg, #f08080, #ff647e, #434343);
   background-size: 400% 400%;
   
   -webkit-animation: bgpink 10s ease-in infinite;
