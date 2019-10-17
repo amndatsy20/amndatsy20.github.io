@@ -62,10 +62,6 @@ body {
   text-align: left;
   background: #fff;
   background-size: 400% 400%;
-  
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
 }
 
 [tabindex="-1"]:focus {
@@ -10170,5 +10166,30 @@ a.text-dark:hover, a.text-dark:focus {
     left: -14px;
     right: auto;
   }
+}
+
+.bg-pink-grad {
+  background: linear-gradient(90deg, #f08080, #ff647e, #2C3E50);
+  background-size: 400% 400%;
+  
+  -webkit-animation: bgpink 5s ease-in infinite;
+  -moz-animation: bgpink 5s ease-in infinite;
+  animation: bgpink 5s ease-in infinite;
+}
+
+@-webkit-keyframes bgpink {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+}
+@-moz-keyframes bgpink {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+}
+@keyframes bgpink {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
 }
 /*# sourceMappingURL=bootstrap.css.map */
